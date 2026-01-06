@@ -24,4 +24,4 @@ int main() {
     cout << "Total : " << final_change_amount << endl;
 
     return 0;
-}
+};
