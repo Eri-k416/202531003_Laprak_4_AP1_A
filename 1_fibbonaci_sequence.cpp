@@ -97,4 +97,6 @@ int main() {
             cout << "Ulangi, input tidak benar!\n\n";
         }
     }
+
+    return 0;
 }

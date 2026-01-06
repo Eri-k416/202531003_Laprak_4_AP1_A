@@ -1,16 +1,9 @@
-#include <cstdlib> // for rand(), srand(), RAND_MAX
-#include <ctime> // for time()
 #include <iostream>
 using namespace std;
 
-int generateNumber() {
-    return (rand() % 10);
-}
-
 int main() {
-    srand(time(0));
 
-    int random_number = generateNumber();
+    int random_number = 7;
     int guess;
     int attempts = 1;
 
